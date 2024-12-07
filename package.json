@@ -1,0 +1,24 @@
+{
+    "name": "openstreetmap-field",
+    "version": "1.0.0",
+    "description": "A React component for integrating Leaflet maps with TinaCMS.",
+    "main": "OpenStreetMapField.tsx",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": ["react", "leaflet", "openstreetmap", "tinacms", "geolocation"],
+    "author": "Ваше Имя или Имя Компании",
+    "license": "MIT",
+    "devDependencies": {
+      "@tinacms/cli": "^1.5.53",
+      "@types/node": "^22.10.1"
+    },
+    "dependencies": {
+      "leaflet": "^1.9.4",
+      "react-leaflet": "^4.2.1",
+      "tinacms": "^2.1.1",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0"
+    }
+  }
+  
