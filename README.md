@@ -1,3 +1,5 @@
+![Описание изображения](./on-admin.jpg)
+
 # OpenStreetMapField Component
 
 OpenStreetMapField — это компонент на базе React и Leaflet, предназначенный для использования с TinaCMS для отображения, геолокации и редактирования местоположений на карте OpenStreetMap.
