@@ -25,6 +25,14 @@ OpenStreetMapField — это компонент на базе React и Leaflet,
 npm install react react-dom leaflet react-leaflet tinacms
 ```
 3. Подключите компонент в config.ts
+в самом верху
+```javascript
+import { defineConfig, wrapFieldsWithMeta } from 'tinacms';
+import OpenStreetMapField from './OpenStreetMapField'; 
+
+```
+и включаем поле в коллекции 
+
 ```javascript
 schema: {
 collections: [
