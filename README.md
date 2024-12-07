@@ -19,34 +19,19 @@ OpenStreetMapField — это компонент на базе React и Leaflet,
 
 ### Установка
 
-1. Клонируйте репозиторий.
-   ```bash
-   git clone https://github.com/ваше_имя/ваш_репозиторий.git
+1. Скачайте компонент OpenStreetMapField.tsx в папку tina/
+2. Установите зависмости
 ```
-2. Перейдите в каталог проекта.
+npm install react react-dom leaflet react-leaflet tinacms
 ```
-cd ваш_репозиторий
-```
-3. Установите необходимые зависимости.
-```
-npm install
-```
-
-### Использование
-Импортируйте компонент OpenStreetMapField в ваш проект(tina/config.ts):
-```
-import OpenStreetMapField from './OpenStreetMapField';
-```
-
-Включите его в вашу конфигурацию TinaCMS:
-
+3. Подключите компонент в config.ts
 ```javascript
 schema: {
 collections: [
 {
 name: "location",
 label: "Location",
-path: "content/locations",
+path: "content",
 fields: [
 {
 name: "location",
@@ -67,7 +52,10 @@ fields: [
 
 }
 
+```
 
-### Поддержка
+### Использование
+При редактировании появится карта можно выбрать локацию в странице сохранится широта и долгота, а если вписать адрес то он тоже сохранится.
+Моя первая попытка, что то сделать на js если сможете улучшить - буду только рад!
 
-Для вопросов или замечаний, пожалуйста, создайте issue или обсуждение в репозитории.
+
